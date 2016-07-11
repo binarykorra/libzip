@@ -34,12 +34,14 @@
   IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+#import <Foundation/Foundation.h>
 
 //! Project version number for libzip.
 FOUNDATION_EXPORT double libzipVersionNumber;
 
 //! Project version string for libzip.
-FOUNDATION_EXPORT const unsigned char libzipVersionString[];
+FOUNDATION_EXPORT const unsigned char libzipVersionString[];
+
 
 #ifndef ZIP_EXTERN
 #ifdef _WIN32
